@@ -1,8 +1,1 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Formativa4" id="D1254866-7D30-2EEA-C47B-FB9C9E582FEE" version="3.5">
-<createdBy>harrison</createdBy>
-<createdTime>2024-08-26 00:19:10 UTC</createdTime>
-<ownerDesignName>Ejercicio semana 2</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>D1254866-7D30-2EEA-C47B-FB9C9E582FEE</designId>
-</OSDM_Design>
+
