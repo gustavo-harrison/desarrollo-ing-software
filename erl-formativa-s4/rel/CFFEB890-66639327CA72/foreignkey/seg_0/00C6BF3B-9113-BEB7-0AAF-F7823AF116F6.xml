@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="00C6BF3B-9113-BEB7-0AAF-F7823AF116F6" containerWithKeyObject="28EFD9A7-55E9-41E9-2273-2C711135361E" localFKIndex="9EC8EAF8-069E-73AD-6383-D1FFB02E58C4" name="RESERVA_CLIENTE_FK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<generatorID>94469E36-953B-48AA-A695-9B4585F88350</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<referredTableLongName>CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7A703C7-DF38-94E2-9FEA-9D03BDBBEB2A</referredTableID>
+<keyObject>2E6E5739-19A7-0964-707E-293BD16C89DD</keyObject>
+<referredKeyID>2E6E5739-19A7-0964-707E-293BD16C89DD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CLIENTE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

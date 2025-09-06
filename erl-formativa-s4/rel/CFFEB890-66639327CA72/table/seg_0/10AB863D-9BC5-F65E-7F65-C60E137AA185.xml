@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10AB863D-9BC5-F65E-7F65-C60E137AA185" name="RESERVA_HABITACIÓN">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>3B1125B3-C919-E6EE-9F88-820A3DA659A5</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_numero_reserva" id="0113336D-F065-D2BC-10B4-3FCB4ADC8707">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>50843C14-9B45-8C09-1119-C5C835BBF64D</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_numero_habitacion" id="8B912858-16D4-F38D-01DA-C1834F10CAC5">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>ABFD2927-5BBA-AD08-D4AA-1253515BA97C</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESERVA_HABITACIÓN_ID" id="FF1EA5F6-68B2-15A5-7121-41F372C2ADF8">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43CA665D-D988-87C8-33BF-3F82753B2002" name="RESERVA_HABITACIÓN_PK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FF1EA5F6-68B2-15A5-7121-41F372C2ADF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28EFD9A7-55E9-41E9-2273-2C711135361E" name="RESERVA">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>D0A16EEE-2903-0041-FC66-AE28F195CB5F</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_reserva" id="4B48AE17-441E-CEA4-6CCC-12153F513899">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>573DA41A-17B2-0C10-267C-68B1F35C2210</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_reserva" id="12216826-9EB1-01DF-8933-2D156A97D635">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>E46FDF3D-4B15-FACB-3B21-43C2E7547C4F</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_de_llegada" id="31133DB7-8DA8-4B24-4F8D-990AA5271101">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>FFDCC5B1-4CAF-A196-7DE8-A77771338565</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_de_salida" id="CDA32480-D45E-4132-A7E7-3C665D0382D5">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>0A071D47-99CE-33B9-7CCA-13E6FAB488C9</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad_de_dias" id="4ECB8A8B-7D9B-51BA-6181-95CEF4B8F0ED">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>993FBA06-B5B9-DA22-CB46-4AEDFEC81D50</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESERVA_ID" id="7DB6E9EC-9974-E144-2245-DE4C6C218D28">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="CLIENTE_CLIENTE_ID" id="C7C02F60-7F56-C10D-8607-45866EEA24D5">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00C6BF3B-9113-BEB7-0AAF-F7823AF116F6" referredColumn="1EA22C6F-ED0B-5BCD-69AD-0F65EA6028CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="665041FB-4730-EA67-5024-A7EFED4FB454" name="RESERVA_PK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="7DB6E9EC-9974-E144-2245-DE4C6C218D28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EC8EAF8-069E-73AD-6383-D1FFB02E58C4" name="RESERVA_CLIENTE_FK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<generatorID>94469E36-953B-48AA-A695-9B4585F88350</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7C02F60-7F56-C10D-8607-45866EEA24D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

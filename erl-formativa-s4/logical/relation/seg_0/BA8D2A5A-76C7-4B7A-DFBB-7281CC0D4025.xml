@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="BA8D2A5A-76C7-4B7A-DFBB-7281CC0D4025">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:51:11 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<identifying>false</identifying>
+<nameOnSource>Toma</nameOnSource>
+<nameOnTarget>Tomada</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3B1125B3-C919-E6EE-9F88-820A3DA659A5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>92146ECD-877C-4FA3-654D-CB3D2D2B4D8D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

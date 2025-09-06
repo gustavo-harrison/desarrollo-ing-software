@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7A703C7-DF38-94E2-9FEA-9D03BDBBEB2A" name="CLIENTE">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>5F21F07A-8825-2C07-74A6-91479D65E710</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_reserva" id="C7FD3736-0D4A-E875-2CFF-3896CF00B973">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>A3CF581D-B29B-4F94-CA4A-4B39B9CF9B3D</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_completo" id="E05382C1-C3C4-F08D-7825-70A538B711D2">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>42FE55C3-C873-3BFA-E192-0622CC1BF760</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="318BB1B3-DD17-DA87-E433-E20BA00E4A3A">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>2FBE9AB2-FB95-F904-5A63-9A513DD84011</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="4F5D5E2F-46C4-A3A4-9826-75D524381A5D">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>469DB4E4-074F-5BF9-E922-71D6115DF0ED</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="8E0B7FAC-8C70-A195-F3FF-B8F621489FC4">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>0BBDED22-2B2F-8FAA-CBDA-09C8C6ABD353</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_civil" id="A45BB1DE-E029-676E-609A-D6CB6F1976C5">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>728F089F-06D0-33F7-F4EE-EAE2BAC95F9F</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="625D5952-C46E-7436-5A03-E152D4FD8974">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>7AB797CF-C0D0-C05B-A27A-FE58843783A9</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_electronico" id="EC941AB9-CC9E-F16A-96DB-C67FB784C46A">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>BC63A97A-E8C4-965E-D49E-BFB3ED41BD98</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="1C30E15C-C70B-5D53-5A06-5E95AE5DF77A">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>528702D5-8C95-AD03-9773-9947831174F9</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comuna" id="86786453-CC75-9B3F-F39F-B1FEF156A437">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>675829FE-72F5-B749-246C-3B6AD36DC366</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="0B5F05AC-9F92-C261-E348-F787711C89E7">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>DF9F842F-06D5-1FB3-07DF-4FE178525230</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="99CDB244-08B9-92E4-CDA5-B3D90324F325">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>0F663143-A63C-48D1-4E3A-2C0202F4FB1A</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_ID" id="1EA22C6F-ED0B-5BCD-69AD-0F65EA6028CF">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="HOTEL_HOTEL_ID" id="7F12E24A-0691-34A2-2B2A-C890967DAC42">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D1599E1-3637-7C81-7745-0FF87954D464" referredColumn="6DC1E4AE-89B7-7491-5586-C321BEE82A9A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E6E5739-19A7-0964-707E-293BD16C89DD" name="CLIENTE_PK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="1EA22C6F-ED0B-5BCD-69AD-0F65EA6028CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5EE679A-DAA5-5062-77F6-0B3985EC348C" name="CLIENTE_HOTEL_FK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<generatorID>77BD7EC6-C367-CE71-BAD5-3EB726E4B630</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F12E24A-0691-34A2-2B2A-C890967DAC42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

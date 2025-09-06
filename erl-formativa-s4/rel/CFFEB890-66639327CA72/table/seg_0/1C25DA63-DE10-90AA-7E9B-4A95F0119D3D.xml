@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C25DA63-DE10-90AA-7E9B-4A95F0119D3D" name="HABITACIÓN">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>92146ECD-877C-4FA3-654D-CB3D2D2B4D8D</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HABITACIÓN_ID" id="E641F7DB-FD39-FA27-7755-712B34E4F4A8">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="id_numero_habitación" id="6D28C2EA-0180-F547-BE3A-83B57F664AEE">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>128CB72B-9ECC-2B51-FCCB-ED95B79E7CD7</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="626C7A25-BA32-36B3-E4D5-CD845F333D6B">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>0D11F972-AD92-F63D-1095-B529F77C9CE1</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cama" id="5E68F198-6576-517F-7F8C-C1F63CC5C6C2">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>ABEA9D52-CD62-7400-D555-D68FD9B641BB</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOTEL_HOTEL_ID" id="E982B25C-327C-386D-7C2B-BDE5F362B975">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC050071-F49C-B4D4-F4B4-1298D8AEB2E2" referredColumn="6DC1E4AE-89B7-7491-5586-C321BEE82A9A"/>
+</associations>
+</Column>
+<Column name="RESERVA_HABITACIÓN_RESERVA_HABITACIÓN_ID" id="37A053AD-1ED1-301A-E088-16CE140DBA6F">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F8A0190-BE03-6A9E-4AEF-4274D88CF67E" referredColumn="FF1EA5F6-68B2-15A5-7121-41F372C2ADF8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3DCE64B-9369-F4DD-9D6F-3E6254331E99" name="HABITACIÓN_PK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E641F7DB-FD39-FA27-7755-712B34E4F4A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F752E610-4FF9-9191-DA5E-AAE4C5DFE60C" name="HABITACIÓN_HOTEL_FK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>4E99619A-01E4-4D6C-D8D2-1652D1B5F77F</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E982B25C-327C-386D-7C2B-BDE5F362B975"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7D7D961-2542-E36E-AA74-EE7E83A52D37" name="HABITACIÓN_RESERVA_HABITACIÓN_FK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<generatorID>BA8D2A5A-76C7-4B7A-DFBB-7281CC0D4025</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37A053AD-1ED1-301A-E088-16CE140DBA6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

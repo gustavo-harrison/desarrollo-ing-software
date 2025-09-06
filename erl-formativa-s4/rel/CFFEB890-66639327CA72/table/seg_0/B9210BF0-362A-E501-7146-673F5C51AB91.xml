@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9210BF0-362A-E501-7146-673F5C51AB91" name="HABITACIÓN_SIMPLE">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>95D0B065-D41B-E6CD-A205-AB7E173D24A9</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HABITACIÓN_HABITACIÓN_ID" id="8DEED635-D3E2-479B-5400-4D69AE60CF04">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14BD2AE3-AF5F-9CE4-0BFB-8D7E381D7867" referredColumn="E641F7DB-FD39-FA27-7755-712B34E4F4A8"/>
+</associations>
+</Column>
+<Column name="numero_de_camas" id="40E44133-C038-C70F-4F96-83370965DCB3">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>368812FA-9D9A-C024-A796-15857B18A33B</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A96CEE6C-9602-067A-3841-AAA78B1D1DE0" name="HABITACIÓN_SIMPLE_PK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8DEED635-D3E2-479B-5400-4D69AE60CF04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33258EF7-1662-3C9D-BBB5-075840663E66" name="HABITACIÓN_SIMPLE_HABITACIÓN_FK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:28 UTC</createdTime>
+<generatorID>745AF506-96FB-603C-BFE3-5DC8C6CA9D67</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DEED635-D3E2-479B-5400-4D69AE60CF04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

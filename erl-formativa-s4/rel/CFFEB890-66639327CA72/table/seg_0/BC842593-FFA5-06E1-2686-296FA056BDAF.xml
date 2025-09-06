@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC842593-FFA5-06E1-2686-296FA056BDAF" name="Relation_5">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RESERVA_RESERVA_ID" id="BD10EEFA-4A42-3290-C3DE-EE38A7A8566B">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7E1ADC3-48EE-172B-0AFA-2FEC65E2B614" referredColumn="7DB6E9EC-9974-E144-2245-DE4C6C218D28"/>
+</associations>
+</Column>
+<Column name="HABITACIÓN_HABITACIÓN_ID" id="66DD1E19-1796-6EB0-E90D-E5F7396A5738">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3950FE49-0D06-016A-C442-1E979EF45B85" referredColumn="E641F7DB-FD39-FA27-7755-712B34E4F4A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34FE7DD6-6D7A-72FC-87FB-4BBCCB349820" name="Relation_5_PK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD10EEFA-4A42-3290-C3DE-EE38A7A8566B"/>
+<colUsage columnID="66DD1E19-1796-6EB0-E90D-E5F7396A5738"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1E29948-B522-15D0-D068-ADCC9392379A" name="Relation_5_RESERVA_FK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<generatorID>625599F5-FEB4-01B1-25BD-13364668CAE8</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD10EEFA-4A42-3290-C3DE-EE38A7A8566B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBB04CAD-DE77-0361-A7D8-BFF73A16C236" name="Relation_5_HABITACIÓN_FK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<generatorID>625599F5-FEB4-01B1-25BD-13364668CAE8</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66DD1E19-1796-6EB0-E90D-E5F7396A5738"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

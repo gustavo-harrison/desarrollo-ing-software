@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3950FE49-0D06-016A-C442-1E979EF45B85" containerWithKeyObject="BC842593-FFA5-06E1-2686-296FA056BDAF" localFKIndex="FBB04CAD-DE77-0361-A7D8-BFF73A16C236" name="Relation_5_HABITACIÓN_FK">
+<createdBy>harrison</createdBy>
+<createdTime>2025-09-06 21:41:29 UTC</createdTime>
+<generatorID>625599F5-FEB4-01B1-25BD-13364668CAE8</generatorID>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<referredTableLongName>HABITACIÓN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1C25DA63-DE10-90AA-7E9B-4A95F0119D3D</referredTableID>
+<keyObject>E3DCE64B-9369-F4DD-9D6F-3E6254331E99</keyObject>
+<referredKeyID>E3DCE64B-9369-F4DD-9D6F-3E6254331E99</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>HABITACIÓN_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

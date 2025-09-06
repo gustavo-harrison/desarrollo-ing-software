@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA75A79E-63A3-8213-0589-FE65FC1311EF" name="HABITACIÓN DOBLE">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:37:22 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>92146ECD-877C-4FA3-654D-CB3D2D2B4D8D</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo_de_cama" id="698EFE50-174E-108D-2DDF-60C3F5B02BBA">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:37:48 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

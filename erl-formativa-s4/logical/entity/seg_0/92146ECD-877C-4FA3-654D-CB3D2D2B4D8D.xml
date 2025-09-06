@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92146ECD-877C-4FA3-654D-CB3D2D2B4D8D" name="HABITACIÓN">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:34:47 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_numero_habitación" id="128CB72B-9ECC-2B51-FCCB-ED95B79E7CD7">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:34:59 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="0D11F972-AD92-F63D-1095-B529F77C9CE1">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:35:34 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cama" id="ABEA9D52-CD62-7400-D555-D68FD9B641BB">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:35:46 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

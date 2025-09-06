@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="hotel" directorySegmentName="seg_0" id="4E99619A-01E4-4D6C-D8D2-1652D1B5F77F">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:45:34 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<nameOnSource>Tiene</nameOnSource>
+<nameOnTarget>Varias</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B0DE485-7A6A-DCF0-0EFA-4D3A01F778AD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>92146ECD-877C-4FA3-654D-CB3D2D2B4D8D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

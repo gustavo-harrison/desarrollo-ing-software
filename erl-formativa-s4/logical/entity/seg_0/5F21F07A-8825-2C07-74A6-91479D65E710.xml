@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F21F07A-8825-2C07-74A6-91479D65E710" name="CLIENTE">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:41:04 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_reserva" id="A3CF581D-B29B-4F94-CA4A-4B39B9CF9B3D">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:41:16 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_completo" id="42FE55C3-C873-3BFA-E192-0622CC1BF760">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:41:33 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="2FBE9AB2-FB95-F904-5A63-9A513DD84011">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:41:46 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="469DB4E4-074F-5BF9-E922-71D6115DF0ED">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:42:00 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="0BBDED22-2B2F-8FAA-CBDA-09C8C6ABD353">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:43:50 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_civil" id="728F089F-06D0-33F7-F4EE-EAE2BAC95F9F">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:42:13 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="7AB797CF-C0D0-C05B-A27A-FE58843783A9">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:42:24 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo_electronico" id="BC63A97A-E8C4-965E-D49E-BFB3ED41BD98">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:42:36 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="528702D5-8C95-AD03-9773-9947831174F9">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:43:02 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comuna" id="675829FE-72F5-B749-246C-3B6AD36DC366">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:43:24 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="DF9F842F-06D5-1FB3-07DF-4FE178525230">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:43:35 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="0F663143-A63C-48D1-4E3A-2C0202F4FB1A">
+<createdBy>harrison</createdBy>
+<createdTime>2024-08-26 00:43:42 UTC</createdTime>
+<ownerDesignName>erl-formativa-s4</ownerDesignName>
+<engineerTo>
+<item key="CFFEB890-11D5-F8F1-D3B4-66639327CA72" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
