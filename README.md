@@ -17,6 +17,7 @@ Sistema web y móvil que permite gestionar reservas en línea, consultar disponi
 - [Tablero Trello](https://trello.com/invite/b/68b366299fad6da8456f6d7c/ATTIc5f68e3554bc3ed188f0a4920943fe6f438742BD/hotelpacificreef-sprintboard)
 - [Video Presentación (Teams)](https://duoccl0-my.sharepoint.com/:v:/g/personal/ha_lara_duocuc_cl/Ea6Y388blPpKiyyDZUdQDv0BiV85mB_qxfA2Dl8sQfMdzA?e=rdrxwR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - [UML](https://lucid.app/lucidchart/5c7dc23d-936a-44af-8e0f-4d57329648ea/edit?viewport_loc=-47%2C-120%2C2090%2C1554%2C0_0&invitationId=inv_762daf8e-8279-406a-b34e-7fcfdc77d5cd)
+- [MOCKUPS Figma](https://www.figma.com/board/x5Ibgux5c9hrWYnrScmMvy/SGH---HOTEL-PACIFIC-REEF?node-id=0-1&t=TXH6aUz5BqENcaGn-1)
 
 ## Metodología
 Metodología Scrum adaptada al contexto académico, con sprints de 2 semanas, DoD definido y evidencias documentadas en cada entrega.
