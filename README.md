@@ -16,6 +16,7 @@ Sistema web y móvil que permite gestionar reservas en línea, consultar disponi
 - [Roadmap](https://miro.com/welcomeonboard/dHowUWRqV3FkRjNERDBLUTcrajZIK0dlU3JMTXhBVWprdEk0ejUwTENWc1krNGpVeHFvYkE2Q1pFRFQ4dXhxQkUrRC8wSEU4TFg2VGNNeUhnL2FYaEFSbDdITUpUTVJUam5qRGtLdTlUandSaDdYd3pyV0dTTExXd0kwUmg4MFJ0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=130410004121)
 - [Tablero Trello](https://trello.com/invite/b/68b366299fad6da8456f6d7c/ATTIc5f68e3554bc3ed188f0a4920943fe6f438742BD/hotelpacificreef-sprintboard)
 - [Video Presentación (Teams)](link_teams)
+- [MOCKUPS Figma](https://www.figma.com/board/x5Ibgux5c9hrWYnrScmMvy/SGH---HOTEL-PACIFIC-REEF?node-id=0-1&t=TXH6aUz5BqENcaGn-1)
 
 ## Metodología
 Metodología Scrum adaptada al contexto académico, con sprints de 2 semanas, DoD definido y evidencias documentadas en cada entrega.
